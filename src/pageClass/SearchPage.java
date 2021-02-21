@@ -209,7 +209,7 @@ public class SearchPage {
 		buttonConfirmOrder.click();
 	}
 
-	/** Retorn message success
+	/** Return message success
 	 * 
 	 * @return
 	 */
