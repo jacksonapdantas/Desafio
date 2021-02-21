@@ -33,7 +33,7 @@ public class Teste {
 	@Test
 	 	public void Comprar2Itens() throws InterruptedException {
 		
-		searchPage.SignIn(" datumqatest@soprock.com","datum2021");
+		searchPage.SignIn("datumqatest@soprock.com","datum2021");
 		searchPage.SearchProduct("Printed Chiffon Dress");
 		searchPage.ClickProduct("Printed Chiffon Dress");
 		searchPage.AddToCart();
@@ -80,7 +80,6 @@ public class Teste {
 	
 	@After
 	public void tearDown() throws Exception {
-		Thread.sleep(3000);
 		driver.quit();
 	}
 }
