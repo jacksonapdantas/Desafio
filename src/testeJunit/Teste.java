@@ -55,9 +55,9 @@ public class Teste {
 	@Test
 	public void ComprarComNovoUsuario() throws InterruptedException {
 		
-		searchPageAccount.CreateAccount("Claudio@teste.com.br");
+		searchPageAccount.CreateAccount("Renato@teste.com.br");
 		searchPageAccount.SelectGender("Mrs");
-		searchPageAccount.FillName("Claudio", "Martins");
+		searchPageAccount.FillName("Renato", "Martins");
 		searchPageAccount.FillPassword("12345");
 		searchPageAccount.SelectBithDate("5", "July", "1989");
 		searchPageAccount.FillAddress("Rua dos teste, 200", "New York", "New York", "00000", "United States");
