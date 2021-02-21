@@ -141,7 +141,7 @@ public class SearchPage {
 		buttonAddCart.click();
 	}
 
-	/** Click continue shopping
+	/** Click continue shopping..
 	 * 
 	 */
 	public void ContinueShopping() {
